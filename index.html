@@ -5,28 +5,79 @@
     <link href="css/style.css" type="text/css" rel="stylesheet">
   </head>
   <body>
-    <header>
+    <header id="myHeader">
       <img src="images/erik%20taylor%20logo.png">
       <ul>
-        <li>ABOUT</li>
-        <li>SKILLS</li>
-        <li>WORK</li>
-        <li>CONTACT</li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#work">WORK</a></li>
+        <li><a href="#skills">SKILLS</a></li>
+        <li><a href="#about">ABOUT</a></li>
       </ul>
     </header>
 <! About Section -->  
-    <section class="heroImg">
+      <section class="heroImg"> <a id="about"></a>
       <div class="content">
         <img src="images/ET%20profile%20pic.jpeg">
-        <h1>Erik Taylor</h1>
+          <h1>Erik Taylor</h1>
         <p>Story-focused content creator and experienced program manager specializing in B2B / B2E marketing.</p>
         <button>Download Resume</button>
       </div>
     </section>
-    
+<! Work -->
+       <div class="work">
+            <h1><a id="work">WORK</a></h1>
+      </div>
+<section class="work">
+    <div class="row">
+        <div class="column">
+        <div class="card">
+            <h2>heima</h2>
+            <h4><i>A family oriented lodging app</i></h4>
+            <p>heima<i>(Icelandic for "home")</i> is a lodging app developed to address the many challenges travelling families face.</p>
+            <button>Case Study</button>
+            </div>
+        </div>
+    </div>
+      </section>
+<section class="work">
+    <div class="row">
+        <div class="column">
+        <div class="card">
+            <h2>Qbicle</h2>
+            <h4><i>Work. Life. Balance.</i></h4>
+            <p>Qbicle is a productivity and coaching app to help the ever-increasing population of professionals adjust to working from home.</p>
+            <button>Case Study</button>
+            </div>
+        </div>
+    </div>
+      </section>
+<section class="work">
+    <div class="row">
+        <div class="column">
+        <div class="card">
+            <h2>American Homebrewers Association (AHA)</h2>
+            <h4><i>A website redesign to drive membership in the time of COVID</i></h4>
+            <p>This website redesign project is meant to increase membership enrollments through the website since the pandemic makes large events impossible.</p>
+            <button>Case Study</button>
+            </div>
+        </div>
+    </div>
+      </section>
+<section class="work">
+    <div class="row">
+        <div class="column">
+        <div class="card">
+            <h2>Digital Sellers Guidebook</h2>
+            <h4><i>Seller enablement in the digital age</i></h4>
+            <p>The Digital Sellers Guidebook provides sellers with in-depth product overview pages, collections of tutorial videos, and a scenario-focused knowledge base.</p>
+            <button>Case Study</button>
+            </div>
+        </div>
+    </div>
+</section>
 <! Skills Section -->
       <div class="skills">
-            <h1>SKILLS</h1>
+            <h1><a id="skills"></a>SKILLS</h1>
       </div>
 <section class="skills">
     <div class="row">
@@ -79,61 +130,9 @@
     </div>
     </div>
 </section>
-<! Work -->
-       <div class="work">
-            <h1>WORK</h1>
-      </div>
-<section class="work">
-    <div class="row">
-        <div class="column">
-        <div class="card">
-            <h2>heima</h2>
-            <h4><i>A family oriented lodging app</i></h4>
-            <p>heima<i>(Icelandic for "home")</i> is a lodging app developed to address the many challenges travelling families face.</p>
-            <button>Case Study</button>
-            </div>
-        </div>
-    </div>
-      </section>
-<section class="work">
-    <div class="row">
-        <div class="column">
-        <div class="card">
-            <h2>Qbicle</h2>
-            <h4><i>Work. Life. Balance.</i></h4>
-            <p>Qbicle is a productivity and coaching app to help the ever-increasing population of professionals adjust to working from home.</p>
-            <button>Case Study</button>
-            </div>
-        </div>
-    </div>
-      </section>
-<section class="work">
-    <div class="row">
-        <div class="column">
-        <div class="card">
-            <h2>American Homebrewers Association (AHA)</h2>
-            <h4><i>A website redesign to drive membership in the time of COVID</i></h4>
-            <p>This website redesign project is meant to increase membership enrollments through the website since the pandemic makes large events impossible.</p>
-            <button>Case Study</button>
-            </div>
-        </div>
-    </div>
-      </section>
-<section class="work">
-    <div class="row">
-        <div class="column">
-        <div class="card">
-            <h2>Digital Sellers Guidebook</h2>
-            <h4><i>Seller enablement in the digital age</i></h4>
-            <p>The Digital Sellers Guidebook provides sellers with in-depth product overview pages, collections of tutorial videos, and a scenario-focused knowledge base.</p>
-            <button>Case Study</button>
-            </div>
-        </div>
-    </div>
-</section>
 <! Connect -->
-<div class="work">
-            <h1>CONNECT</h1>
+<div class="connect">
+    <h1><a id="connect">CONNECT</a></h1>
             <h3><a href="mailto:erikftaylor@gmail.com">erikftaylor@gmail.com</a></h3>
             <h3><a href="https://www.linkedin.com/in/erikftaylor/">LinkedIn</a></h3>
             <h3><a href="https://twitter.com/erikftaylor">Twitter</a></h3>
@@ -142,11 +141,29 @@
 <! Footer --> 
       <footer>
       <ul>
-        <li>ABOUT</li>
-        <li>SKILLS</li>
-        <li>WORK</li>
-        <li>CONTACT</li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#work">WORK</a></li>
+          <li><a href="#skills">SKILLS</a></li>
+          <li><a href="#about">ABOUT</a></li>
       </ul>
     </footer>
   </body>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="js/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("a").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+        window.location.hash = hash;
+      });
+    }
+  });
+});
+</script>
 </html>
